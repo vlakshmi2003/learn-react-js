@@ -1,7 +1,10 @@
 import React from "react"
 const Lakshmi = () =>{
     return(
-        <div>lakshmi</div>
+        <div>lakshmi
+            viji
+        </div>
+        
     )
     
 
