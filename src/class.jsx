@@ -7,7 +7,18 @@ class CounterApp extends React.Component{
             count:0
         }
     }
+    componentDidMount(){
+        console.log("mounting stage");
+    }
+    componentDidUpdate(){
+        console.log("updating stage")
+    }
+    componentWillUnmount(){
+        console.log("unmounting stage");
+    }
+
     render(){
+        console.log("intialization");
         const {count}=this.state;
         console.log(count,"value")
         return(
